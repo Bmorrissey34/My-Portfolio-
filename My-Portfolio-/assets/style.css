@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px 10px 10px 10px ;
+    background-color: rgb(5, 0, 68);
+   
+}
+
+h1 {
+    justify-content: left;
+    color: yellow;
+    font-size: 20px;
+    display: inline;
+}
+
+li {
+   
+   font-family:monospace;
+   font-weight: 400;
+   font-size: 16px;
+   text-decoration: none;  
+}
+
+li a {
+    color: yellow;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 3%;
+    background-color: rgb(5, 0, 68);
+    border-bottom-style: solid;
+    border-bottom-color: yellow;
+}
+
+.hero {
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    padding: 0%;
+    border-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-color:yellow;
+}
+
+.top-nav {
+    list-style: none;   
+}
+
+.top-nav li{
+    display: inline ;
+    padding: 10px;
+}
+
+h2  {
+    padding-top: 0px;
+    padding-right: 75px;
+    font-size: 36px;
+    border-right: 10px;
+    border-right-style: solid;
+    border-right-color: yellow;
+    margin-top: 1px;
+    color: yellow;
+    margin-bottom: 40px;
+
+}
+
+.About-Me  {
+    height: 100px;
+   
+
+}
+
+.My-Work {
+    height: 900px;
+}
+
+p {
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+    color: yellow;
+    
+}
+
+aside {
+    float: left;
+   
+}
+
+.work {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 1 0px;
+    max-height: 600px;
+    width: 81%;
+}
+
+.work header {
+    font-family: monospace;
+    color: yellow;
+    font-size: 26px;
+    padding-bottom: 2px;
+
+}
