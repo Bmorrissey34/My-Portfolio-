@@ -74,7 +74,7 @@ h2  {
 }
 
 .My-Work {
-    height: 900px;
+    height: 925px;
 }
 
 p {
@@ -96,13 +96,12 @@ aside {
     flex-wrap: wrap;
     flex: 1 1 0px;
     max-height: 600px;
-    width: 81%;
+    width: 80%;
 }
 
 .work header {
     font-family: monospace;
     color: yellow;
     font-size: 26px;
-    padding-bottom: 2px;
 
 }
