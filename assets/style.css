@@ -1,23 +1,35 @@
-div,
-p,
-h1,
-h2,
-ul {
-    border: 1px solid #F60;
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,700;1,400&display=swap');
+
+* {
+    font-family: "Source Sans Pro", monospace;
 }
+
+body {
+    background: linear-gradient(90deg, rgba(153,153,153,1) 0%, rgba(61,61,61,1) 100%);
+}
+
 
 #homework1,
 #project1,
 #homework2 {
-    height: 30rem;
+    
     margin-top: 2rem;
+    
 }
 
-.passwordBg {
-    background-image: url("..\assets\images\Screenshot 2021-10-19 131311.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 200px;
-    width: 200px;
-    border: 2px dashed #333;
+.navColor {
+    background: linear-gradient(90deg, rgba(153,153,153,1) 0%, rgba(61,61,61,1) 100%);
 }
+
+.Titles {
+    z-index: 1;
+    position:absolute;
+    background: linear-gradient(90deg, rgba(153,153,153,1) 0%, rgba(61,61,61,1) 100%);
+    color: white;
+    margin-top:1rem;
+    margin-left: -1rem;
+    padding: 1rem;    
+}
+
+
+
