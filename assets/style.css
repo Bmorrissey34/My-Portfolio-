@@ -35,6 +35,7 @@ body {
     height: 5rem;
     background-color: rgb(54, 54, 54);
 }
-
-
-
+ 
+.resume {
+    height: 100vh;
+}
